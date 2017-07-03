@@ -82,6 +82,10 @@ rm excito-release-stretch.deb
 apt-get update
 apt-get -y dist-upgrade
 ```
+- Install kernel and b3 utils:
+```
+apt-get -y install bubba3-kernel b3-utils
+```
 - Install locales and standard system tools:
 ```
 apt-get -y install locales
