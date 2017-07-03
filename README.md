@@ -135,7 +135,8 @@ passwd excito
   - Root and postmaster mail recipient: `excito`
 - Configure the network:
 ```
-cat > /etc/network/interfaces << EOF
+cat >> /etc/network/interfaces << EOF
+
 allow-hotplug eth0
 iface eth0 inet dhcp
 
