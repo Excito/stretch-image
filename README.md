@@ -183,9 +183,9 @@ umount /mnt/target/proc
 ### `first-boot` files and tarball creation ###
 - Download and extract the first-boot release tarball into target:
 ```
-wget -O/mnt/target/first-boot.tgz https://github.com/Excito/stretch-image/releases/download/v1.0/first-boot-1.0.tgz
-( cd /mnt/target; tar -xvf first-boot.tgz )
-rm /mnt/target/first-boot.tgz
+wget -O/mnt/target/first-boot.txz https://github.com/Excito/stretch-image/releases/download/v1.0/first-boot-1.0.txz
+( cd /mnt/target; tar -xvf first-boot.txz )
+rm /mnt/target/first-boot.txz
 ```
 - Now that the image files are ready, go ahead and create the final tarball:
 ```
