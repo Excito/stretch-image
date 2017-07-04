@@ -189,5 +189,5 @@ rm /mnt/target/first-boot.txz
 ```
 - Now that the image files are ready, go ahead and create the final tarball:
 ```
-( cd /mnt/target; tar -czvf /root/stretch-image.tgz .)
+( cd /mnt/target; tar -cJvf /root/stretch-image.txz .)
 ```
